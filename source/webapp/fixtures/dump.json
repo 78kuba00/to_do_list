@@ -1,0 +1,97 @@
+[
+{
+    "model": "webapp.article",
+    "pk": 1,
+    "fields": {
+        "title": "CoD",
+        "author": "Infiniti Ward",
+        "content": "Moder Warfare 2 (2022)",
+        "created_at": "2022-11-04T05:56:53.241Z",
+        "updated_at": "2022-11-04T05:56:53.241Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 2,
+    "fields": {
+        "title": "Weight",
+        "author": "ChangeFitness",
+        "content": "Lose body fat by summer 2023",
+        "created_at": "2022-11-04T06:11:44.265Z",
+        "updated_at": "2022-11-04T06:11:44.265Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 3,
+    "fields": {
+        "title": "Warzone",
+        "author": "Infiniti Ward",
+        "content": "Upgrade LVL55 Modern Warfare 2 (2022)",
+        "created_at": "2022-11-04T06:14:04.031Z",
+        "updated_at": "2022-11-04T06:14:04.031Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 4,
+    "fields": {
+        "title": "BJJ",
+        "author": "ChangeFitness",
+        "content": "Reach purple belt till the end of 2022",
+        "created_at": "2022-11-04T06:18:19.531Z",
+        "updated_at": "2022-11-04T06:18:19.531Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 5,
+    "fields": {
+        "title": "Pool house",
+        "author": "House",
+        "content": "Fix the cammin (doesnt suck the smog)",
+        "created_at": "2022-11-04T06:20:09.866Z",
+        "updated_at": "2022-11-04T06:20:09.866Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 6,
+    "fields": {
+        "title": "Garden",
+        "author": "House",
+        "content": "Conserve garden pool e.t.c. before the winter",
+        "created_at": "2022-11-04T06:20:58.097Z",
+        "updated_at": "2022-11-04T06:47:02.186Z"
+    }
+},
+{
+    "model": "webapp.article",
+    "pk": 8,
+    "fields": {
+        "title": "Repair",
+        "author": "House",
+        "content": "Repair all doors",
+        "created_at": "2022-11-04T06:33:41.488Z",
+        "updated_at": "2022-11-04T06:33:41.488Z"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$t4BLEXJ1yR14uGbCD6vku4$7qNgRTHxLV/D0n5zIumidUp8QKXdq0Ijp0tBdGtmT/c=",
+        "last_login": "2022-11-04T06:44:47.150Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-11-04T06:44:28.799Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
