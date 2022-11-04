@@ -9,6 +9,7 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display_links = ['title']
     list_filter = ['author']
     search_fields = ['title', 'content']
+    delete_confirmation_template = ['id', 'title', 'author', 'content', 'created_at', 'updated_at']
     # fields = ['id', 'title', 'author', 'content', 'created_at', 'updated_at']
     exclude = []
     readonly_fields = ['created_at', 'updated_at']

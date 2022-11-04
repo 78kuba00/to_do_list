@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 
 STATUS_CHOICES = [('new', 'Новая'), ('in_progress', 'В процессе'),  ('done', 'Сделано')]
@@ -9,7 +10,9 @@ class Article(models.Model):
     content = models.TextField(max_length=3000, null=False, blank=False, verbose_name="Контент")
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Время создания")
     updated_at = models.DateTimeField(auto_now=True, verbose_name="Время изменения")
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=STATUS_CHOICES[0][0], verbose_name="Status")
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=STATUS_CHOICES[0][0],verbose_name='Статус', )
+    deadline = models.DateTimeField(max_length=20, null=True, blank=True, verbose_name="Время на выполнение")
+
 
     def __str__(self):
         return f'{self.pk}. {self.title}'
